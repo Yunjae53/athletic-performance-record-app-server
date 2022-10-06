@@ -1,8 +1,6 @@
 const userDao = require("../models/userDao");
 const maskingFunc = require("../utils/maskingFunc");
 
-
-
 //회원 삭제하기
 const deleteUser = async (id) => {
   const seletedUser = await userDao.readUserById(id);
