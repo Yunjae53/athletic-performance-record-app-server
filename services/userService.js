@@ -23,5 +23,5 @@ const deleteUser = async (id) => {
 };
 
 module.exports = { 
-deleteUser,
+ deleteUser,
 };
